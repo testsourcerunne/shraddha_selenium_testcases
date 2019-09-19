@@ -1,27 +1,22 @@
 Verify that it should not accept blank Pincode
 
 
-
 Verify that if Pincode/city is blank it should give proper warning
 
-.
 
 Verify that if the city is proper then it should show contractors belonging to that particular city only.
-
 
 
 Verify that only field value at the time of searching should accept either city or Pincode but not both at the same time.
 
 
-
 Verify that submit an inquiry in case of no contractors found is working.
+
 
 Verify that same contact number should not submit query after some attempts(say as 3 per day).
 
 
-
 Verify that contact number is  accepting number with correct format
 
-.
 
 Verify that it should not accept null name or contact number.
