@@ -13,7 +13,7 @@ public class WebpageTest {
 	        // declaration and instantiation of objects/variables
 	    	
 	    	System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
-			WebDriver w = new FirefoxDriver();
+	        WebDriver w = new FirefoxDriver();
 	        String baseUrl = "https://www.fevicoldesignideas.com/fcc-listing";
 	        w.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	        String expectedTitle = "Fevicol Design Ideas | Certified Contractors";
